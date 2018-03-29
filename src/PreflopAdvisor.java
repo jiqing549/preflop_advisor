@@ -23,7 +23,7 @@ import javax.swing.AbstractAction;
 import javax.swing.Action;
 import java.util.Random;
 import java.awt.Color;
-public class NL600 {
+public class PreflopAdvisor {
 
 	private JFrame frame;
 
@@ -34,7 +34,7 @@ public class NL600 {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					NL600 window = new NL600();
+					PreflopAdvisor window = new PreflopAdvisor();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -46,7 +46,7 @@ public class NL600 {
 	/**
 	 * Create the application.
 	 */
-	public NL600() {
+	public PreflopAdvisor() {
 		initialize();
 	}
 
